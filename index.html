@@ -3,56 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoWales | Clean Communities</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>EcoWales | Community Litter Initiative</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <div class="logo">ECO<span>WALES</span></div>
-    <nav>
-        <a href="index.html" class="active">Home</a>
-        <a href="facts.html">Litter Facts</a>
-        <a href="community.html">Local Action</a>
-    </nav>
+    <div class="nav-container">
+        <div class="logo">ECO<span>WALES</span></div>
+        <nav>
+            <a href="index.html" class="nav-link active">Home</a>
+            <a href="facts.html" class="nav-link">The Data</a>
+            <a href="community.html" class="nav-link">Action Hub</a>
+        </nav>
+    </div>
 </header>
 
-<section class="split-hero animate-in">
-    <div class="hero-text">
-        <span class="tagline">Welsh Bacc Project 2026</span>
-        <h1>Protecting the <br>Welsh Landscape.</h1>
-        <p>Litter isn't just an eyesore; it's a threat to our local ecosystem. Join me in cleaning up our streets and protecting our wildlife.</p>
-        <div class="cta-group">
-            <a href="facts.html" class="btn-solid">See the Data</a>
-            <a href="community.html" class="btn-outline">Join a Pick</a>
+<section class="hero">
+    <div class="hero-overlay">
+        <div class="hero-content animate-in">
+            <span class="badge">Welsh Bacc Global Citizenship Project</span>
+            <h1>Restoring the Beauty of <br>Our Local Communities.</h1>
+            <p>A strategic approach to combatting littering through education, data analysis, and community-led action in Wales.</p>
+            <div class="hero-actions">
+                <a href="facts.html" class="btn btn-primary">View Research</a>
+                <a href="#mission" class="btn btn-secondary">Our Mission</a>
+            </div>
         </div>
     </div>
-    <div class="hero-image"></div>
 </section>
 
-<section class="info-section animate-in">
-    <div class="container">
-        <h2>Why I Started This Project</h2>
-        <div class="feature-grid">
-            <div class="feature-card">
-                <div class="visual-box bg-green"></div>
-                <h3>Environmental Impact</h3>
-                <p>Analyzing how single-use plastics are damaging Welsh coastlines and inland parks.</p>
+<main id="mission">
+    <section class="container">
+        <div class="section-header animate-in">
+            <h2>The Project Goal</h2>
+            <p>This initiative focuses on reducing the environmental and economic burden of litter in Welsh neighborhoods.</p>
+        </div>
+
+        <div class="pillars">
+            <div class="pillar-card animate-in">
+                <div class="pillar-line green"></div>
+                <h3>Environmental</h3>
+                <p>Mitigating the risk to local biodiversity and preventing plastic entry into our waterways.</p>
             </div>
-            <div class="feature-card">
-                <div class="visual-box bg-gold"></div>
-                <h3>Economic Cost</h3>
-                <p>Littering costs the Welsh taxpayer millions annually. We need smarter solutions.</p>
+            <div class="pillar-card animate-in">
+                <div class="pillar-line gold"></div>
+                <h3>Economic</h3>
+                <p>Lowering the £70 million annual cost to the Welsh taxpayer for street cleansing.</p>
             </div>
-            <div class="feature-card">
-                <div class="visual-box bg-dark"></div>
-                <h3>Community Action</h3>
-                <p>Connecting local residents to organize picking sessions and reporting hotspots.</p>
+            <div class="pillar-card animate-in">
+                <div class="pillar-line dark"></div>
+                <h3>Social</h3>
+                <p>Enhancing community pride and mental well-being by maintaining clean public spaces.</p>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 EcoWales Initiative | Welsh Bacc Skills Challenge Certificate</p>
+</footer>
 
 </body>
 </html>
